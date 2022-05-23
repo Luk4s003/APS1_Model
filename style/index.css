@@ -38,6 +38,7 @@ input:focus {
 }
 
 button {
+    text-decoration: none;
     width: 80px;
     height: 34px;
     color: #fff;
@@ -47,7 +48,8 @@ button {
 }
 
 button:hover {
-    background-color: #75736f;;
+    background-color: #75736f;
+    cursor: pointer;
 }
 
 img {
