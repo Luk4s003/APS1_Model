@@ -61,3 +61,16 @@ li:hover {
     background-color: #686868;
 }
 /*Fim Menu Lateral*/
+
+main {
+    margin: 0px 12px 0px auto;
+    width: 86%;
+    padding-top: 10px;
+}
+
+#title {
+    color: #000;
+    background-color: #cecece;
+    padding-left: 10px;
+    border-radius: 5px;
+}
