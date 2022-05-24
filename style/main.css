@@ -9,6 +9,34 @@
     font-weight: 100;
 }
 
+/* Página Inicial */
+
+#top {
+    display: flex;
+}
+
+.charts th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16pt;
+}
+
+.charts td {
+    text-align: center;
+}
+
+text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16pt;
+}
+
+#table_div, #piechart {
+    width: 40%;
+    height: 500px;
+    margin: 20px auto;
+}
+
 /* Página de Vendas */
 
 #searchbox {
