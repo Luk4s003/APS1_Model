@@ -37,12 +37,105 @@
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <div id="input-boxes">
-            <select name="status" id="status">
-                <option value="Finalizada">Finalizada</option>
-                <option value="Em Aberto">Em Aberto</option>
-            </select>
+            <div class="allInputs">
+                <label for="status">Status</label>
+                <select name="status" id="status">
+                    <option value="1">Pagamento Efetuado</option>
+                    <option value="2">Pedido Pendente</option>
+                    <option value="3">Pedido Em Separação</option>
+                    <option value="4">Pedido Em Expedição</option>
+                    <option value="5">Pedido Enviado</option>
+                    <option value="6">Pedido Concluido</option>
+                    <option value="7">Pedido Cancelado</option>
+                </select>
+            </div>
 
-            <input type="date">
+            <div class="allInputs">
+                <label for="status">Data Inicial</label>
+                <input type="date" class="dateSelector">
+            </div>
+
+            <div class="allInputs">
+                <label for="status">Data Final</label>
+                <input type="date" class="dateSelector">
+            </div>
+        </div>
+
+        <div id="content">
+            <table>
+                <tr>
+                    <th class="idPedido">Pedido</th>
+                    <th class="nomeCliente">Nome do Cliente</th>
+                    <th class="dataPedido">Data do Pedido</th>
+                    <th class="valorPedido">Valor Total</th>
+                    <th>Frete</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td class="idPedido">#0001</td>
+                    <td class="nomeCliente">Freddie Mercury</td>
+                    <td class="dataPedido">23/09/2020 16:43:30</td>
+                    <td class="valorPedido">R$ 250,02</td>
+                    <td>Retirada</td>
+                    <td>Pagamento Efetuado</td>
+                </tr>
+                <tr>
+                    <td class="idPedido">#0002</td>
+                    <td class="nomeCliente">Brian May</td>
+                    <td class="dataPedido">09/12/2020 12:07:35</td>
+                    <td class="valorPedido">R$ 650,99</td>
+                    <td>Retirada</td>
+                    <td>Pagamento Pendente</td>
+                </tr>
+                <tr>
+                    <td class="idPedido">#0003</td>
+                    <td class="nomeCliente">Morrisey</td>
+                    <td class="dataPedido">12/03/2021 18:01:49</td>
+                    <td class="valorPedido">R$ 175,34</td>
+                    <td>Retirada</td>
+                    <td>Cancelado</td>
+                </tr>
+                <tr>
+                    <td class="idPedido">#0004</td>
+                    <td class="nomeCliente">Eddie Vedder</td>
+                    <td class="dataPedido">12/03/2021 18:01:50</td>
+                    <td class="valorPedido">R$ 175,34</td>
+                    <td>Retirada</td>
+                    <td>Pagamento Efetuado</td>
+                </tr>
+                <tr>
+                    <td class="idPedido">#0005</td>
+                    <td class="nomeCliente">Dave Grohl</td>
+                    <td class="dataPedido">12/03/2021 18:01:51</td>
+                    <td class="valorPedido">R$ 175,34</td>
+                    <td>Retirada</td>
+                    <td>Pagamento Pendente</td>
+                </tr>
+                <tr>
+                    <td class="idPedido">#0006</td>
+                    <td class="nomeCliente">Chris Cornell</td>
+                    <td class="dataPedido">12/03/2021 18:01:52</td>
+                    <td class="valorPedido">R$ 175,34</td>
+                    <td>Retirada</td>
+                    <td>Cancelado</td>
+                </tr>
+                <tr>
+                    <td class="idPedido">#0007</td>
+                    <td class="nomeCliente">Jimi Hendrix</td>
+                    <td class="dataPedido">12/03/2021 18:01:53</td>
+                    <td class="valorPedido">R$ 175,34</td>
+                    <td>Retirada</td>
+                    <td>Pagamento Efetuado</td>
+                </tr>
+                <tr>
+                    <td class="idPedido">#0008</td>
+                    <td class="nomeCliente">Bruce Dickinson</td>
+                    <td class="dataPedido">12/03/2021 18:01:54</td>
+                    <td class="valorPedido">R$ 175,34</td>
+                    <td>Retirada</td>
+                    <td>Pagamento Pendente</td>
+                </tr>
+            </table>
         </div>
     </main>
 </body>
