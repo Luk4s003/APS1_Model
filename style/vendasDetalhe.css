@@ -1,0 +1,49 @@
+/* margin: topo | direita | inferior | esquerda */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 26pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+/* Página de Vendas */
+
+select, option {
+    border: 1px solid #cdcdda;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    color: #000;
+    width: 920px;
+    height: 30px;
+}
+
+select, option {
+    width: 290px;
+}
+
+td, a {
+    font-size: 16pt;
+}
+
+.idPedido, a {
+    width: 120px;
+    text-align: right;
+}
+
+td.idPedido, a {
+    color: #86C5FF;
+}
+
+.nomeCliente {
+    width: max-content;
+    text-align: left;
+}
+
+.valorPedido {
+    text-align: right;
+}

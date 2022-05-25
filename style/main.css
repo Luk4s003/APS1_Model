@@ -50,7 +50,7 @@ text {
 input, select, option {
     border: 1px solid #cdcdda;
     border-radius: 5px 0px 0px 5px;
-    padding-left: 10px; 
+    padding-left: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16pt;
     color: #000;
@@ -107,9 +107,8 @@ label {
     height: auto;
 }
 
-table, th, td {
+table, th, td, a {
     font-family: 'Courier New', Courier, monospace;
-    border: 1px solid black;
     color: #AEAEAE;
     border: none;
 }
@@ -124,16 +123,16 @@ th {
     font-weight: bold;
 }
 
-td {
+td, a {
     font-size: 16pt;
 }
 
-.idPedido {
+.idPedido, a {
     width: 120px;
     text-align: right;
 }
 
-td.idPedido {
+td.idPedido, a {
     color: #86C5FF;
 }
 
