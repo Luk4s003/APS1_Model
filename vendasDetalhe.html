@@ -48,6 +48,75 @@
                 <option value="6">Pedido Concluido</option>
                 <option value="7">Pedido Cancelado</option>
             </select>
+            <button type="button">Alterar Status</button>
+        </div>
+        <div id="superior">
+            <div class="caixa">
+                <label>Dados do Pedido</label>
+                <div class="container" id="dadosPedido">
+                    <ul>
+                        <li>Cliente: Freddie Mercury</li>
+                        <li>E-mail: freddie.mercus@gmail.com</li>
+                        <li>Telefone: (11)94002-8922</li>
+                        <li>CPF/CNPJ: 984.xxx.xxx-62</li>
+                        <li>Status: Pagamento Efetuado</li>
+                        <li>Data do Pedido: 23/09/2020 16:43:30</li>
+                        <li>Valor Total: R$ 250,02</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="caixa">
+                <label>Nota Fiscal</label>
+                <div class="container" id="notaFiscal">
+                    <div class="line">
+                        <label>Chave de Acesso NF: </label>
+                        <input type="text" id="chaveAcesso">
+                    </div>
+                    <div class="line">
+                        <label>Número: </label>
+                        <input type="text">
+                        <label>Série: </label>
+                        <input type="text">
+                    </div>
+                    <div class="line">
+                        <label>Data: </label>
+                        <input type="date">
+                        <label>CFOP: </label>
+                        <input type="text">
+                    </div>
+                    <div class="line">
+                        <label>Inscrição Estadual: </label>
+                        <input type="text">
+                    </div>
+                    <button type="button" id="salvar" class="button">Salvar</button>
+                    <button type="button" id="cancelar" class="button">Cancelar</button>
+                    <input type="checkbox">
+                </div> <label>NF de Serviço?</label>
+            </div>
+        </div>
+
+        <label>Código de Rastreio</label>
+        <div class="container" id="codigoRastreio">
+            <input type="text">
+            <button type="button">Salvar</button>
+        </div>
+
+        <label>Dados Para Envio</label>
+        <div class="container" id="dadosEnvio">
+            <ul>
+                <li>CEP: 03301-064</li>
+                <li>Endereço: Rua Cruzeiro do Sul, 123</li>
+                <li>Tipo e Prazo: Retirada em Loja</li>
+                <li>Valor do Envio: R$ 0,00</li>
+                <li>Peso dos Itens: 20 Kg</li>
+                <li>Status: Pagamento Efetuado</li>
+            </ul>
+        </div>
+
+        <label>Nota Fiscal</label>
+        <div class="container" id="cadastraNotaFiscal">
+            <button type="button">Cadastrar NF</button>
         </div>
     </main>
 </body>

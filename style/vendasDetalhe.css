@@ -9,8 +9,6 @@
     font-weight: 100;
 }
 
-/* Página de Vendas */
-
 select, option {
     border: 1px solid #cdcdda;
     border-radius: 5px 0px 0px 5px;
@@ -26,24 +24,76 @@ select, option {
     width: 290px;
 }
 
-td, a {
-    font-size: 16pt;
+.caixa {
+    margin-right: 20px;
 }
 
-.idPedido, a {
-    width: 120px;
-    text-align: right;
+.container {
+    border: 1px solid #00000033;
+    border-radius: 5px;
 }
 
-td.idPedido, a {
-    color: #86C5FF;
+#superior {
+    display: flex;
 }
 
-.nomeCliente {
-    width: max-content;
-    text-align: left;
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #5a5a5a;
 }
 
-.valorPedido {
-    text-align: right;
+main ul {
+    margin: 10px 0px 10px 0px;
+}
+
+main li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #444;
+    height: 30px;
+    line-height: 30px;
+}
+
+main li:hover {
+    background: none;
+}
+
+#dadosPedido {
+    width: 700px;
+}
+
+#notaFiscal {
+    width: 600px;
+    padding: 10px;
+}
+
+#notaFiscal input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #00000033;
+}
+
+.line {
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    width: 110px;
+    height: 30px;
+    font-size: 15pt;
+    border: none;
+    border-radius: 10px;
+}
+
+#salvar {
+    background-color: #267ca0;
+}
+
+#cancelar {
+    background-color: #E54949;
 }

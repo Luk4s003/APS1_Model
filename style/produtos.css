@@ -3,27 +3,18 @@
 * {
     margin: 0px;
     padding: 0px;
-    color: rgb(5, 5, 5);
+    color: #ffffff;
     font-size: 26pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
 }
 
-/* Página Inicial */
-
-#top {
+#pesquisa {
     display: flex;
+    margin-top: 30px;
+    line-height: 46px;
+    align-items: center;
 }
-
-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 16pt;
-}
-
-
-/* Página de Produtos */
-
 
 input, select, option {
     border: 1px solid #cdcdda;
@@ -32,8 +23,8 @@ input, select, option {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16pt;
     color: #000;
-    width: 920px;
-    height: 30px;
+    width: 350px;
+    height: 34px;
 }
 
 input:focus {
@@ -47,77 +38,65 @@ i {
     margin-left: -7px;
     text-align: center;
     width: 40px;
-    height: 35px;
+    height: 36px;
     justify-content: center;
     border-radius: 0px 5px 5px 0px;
-    margin-top: -80px;
+    margin-right: 20px;
 }
 
 i::before {
     line-height: 35px;
 }
 
-#input-boxes {
-    display: flex;
-}
-
-select, option, .dateSelector {
-    width: 290px;
-}
-
-label {
-    color: #727272;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16pt;
-    width: 190px;
-}
-
-.allInputs {
-    display: flex;
-    width: 290px;
-    flex-wrap: wrap;
-    margin: 20px 10px 10px 10px;
-}
-
-#content {
-    border: 1px solid #727272;
-    border-radius: 30px;
-    width: max-content;
-    height: auto;
-}
-
-table, th, td {
-    font-family: 'Courier New', Courier, monospace;
-    border: 1px solid black;
-    color: #AEAEAE;
-    border: none;
-}
-
-.container {
-    
-}
-
-p {
-padding: 0px;
-width: 250px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-}
-
-.produtoDetalhe {
-    margin-top: -05px;
-}
-
-.produtoDetalhe li {
-    
-    width: 250px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin-top: 5px;
-    height: 23px;
-}
-
 #produtos {
     display: flex; 
 }
 
+.container {
+    border-radius: 10px;
+    margin: 30px 30px 20px 0px;
+    padding: 10px;
+    box-shadow: #00000059 0px 5px 15px;
+    display: block;
+    text-align: center;
+}
+
+.container img {
+    border: 1px solid #00000033;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.container p, .container li { 
+color: #000000;
+width: 250px;
+margin-left: 12px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 14px;
+text-align: left;
+}
+
+.container p {
+    margin-left: 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    line-height: 80px;
+    float: left;
+    margin-left: 10px;
+}
+
+.bottom li {
+    height: 25px;
+    line-height: 25px;
+    width: 150px;
+    float: left;
+}
+
+.bottom i {
+    margin-top: 35px;
+    border-radius: 5px;
+}
